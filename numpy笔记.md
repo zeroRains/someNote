@@ -31,6 +31,13 @@
 6. 创建一个对角线为1的正方形数组(n阶单位阵):
     * `np.eye(n)`
 
+7. `linspace`函数生成等差数列
+    * `def linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None):`
+    * 指定初始值、终止值、数量、是否包含终止值，默认为包含。
+8. logspace函数生成等比数列
+    * `def logspace(start, stop, num=50, endpoint=True, base=10.0, dtype=None):`
+    * 指定初始值、终止值、数量、是否包含终止值，默认为包含。
+
 ## 二、数组的形状
 
 1. 如果是二维数组，就会形成矩阵形式
@@ -118,6 +125,7 @@
 ## 八、numpy中的三元运算符
 
 1. 对满足True的数值修改成a，满足False的修改成b：`np.where(t<10,a,b)`
+2. `np.where()`括号中可以输入判断条件，比如`np.where(x = x.min)`这时他会返回x的最小值的全部索引
 
 ## 九、numpy中的clip（裁剪）
 
