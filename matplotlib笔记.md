@@ -127,3 +127,4 @@
 3. 准备数据
 4. 绘图和图形完善
 5. 更多样式请参考 <a href="http://matplotlib.org/gallery">http://matplotlib.org/gallery</a>
+6. 参数![参数](./picture/参数1.jpg)![参数](./picture/参数2.jpg)
